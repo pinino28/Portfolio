@@ -1,0 +1,324 @@
+
+@keyframes a{
+100%{
+   background-color: rgb(153, 56, 56);  
+ }
+ 
+}
+
+.a:hover{
+    animation-name: a;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    text-decoration: none;
+}
+
+.proyectos{
+ 
+  padding-top: 5%;
+}
+.whiteLetter{
+    color:aliceblue;
+}
+ .img3{
+    padding-top: 30%;
+    width: 320px;
+ }
+
+ .img2{
+   width: 360px;
+ }
+
+ .img{
+    width: 360px;
+ }
+
+ h3{
+    text-align: center;
+    color:rgb(255, 255, 255);
+ }
+ h5{
+    text-align: center;
+    color:white;
+ }
+.intro{
+    text-align: center;
+    padding-top: 1%; /*margen con los proyectos*/
+    color: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a:-webkit-any-link {
+    
+    cursor: pointer;
+    text-decoration:solid;
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.cont{
+    background: gray;
+    padding-top: 23%;
+    padding-bottom: 29%;
+}
+
+.pad{
+  padding-left: 5%;
+  padding-right: 5%;
+  list-style: none;
+}
+
+
+html {
+    min-height: 100%;
+  position: relative;
+  }
+.grande{
+    font-size:50px;
+    overflow: hidden;
+}
+/*yoo*/
+
+/*FONDOS DE LAS 3 PARTES*/
+.color{
+    background: linear-gradient(5deg, #2a3d40 0%, #0e0d0f 100%);
+}
+.color2{
+    background-image: linear-gradient(90deg, #ffffff 32%, #ffffff 0% );/*color de la barra de navegacion*/
+}
+
+
+.box{
+  background-image: url(https://fondosmil.com/fondo/49843.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-end-end-radius: 10% 50%;
+  box-shadow: -3px 3px 3px #0e0d0f;
+}
+
+.imgP{
+    image-resolution: 144px;
+    width: 120px;
+    border-radius: 10%;
+    margin-bottom: 0px;
+    border-color: #2c2c2c63;
+    border-style: initial;
+    border-width: 20px;
+    border: 20px;
+    float:left;
+    position: static;
+ }    
+
+.imgP1{
+    position: absolute;
+    padding-top: 15%;
+    padding-left: 2%;
+}
+
+ 
+.estiloIm{
+    padding-left: 20px;
+}
+.maxWidth{
+    background-size:cover;
+    background-image: url("../src/imagenesMias/decoracion.png");
+    background-repeat: no-repeat;
+    /*padding-bottom: 50px;*/
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 310px;
+  }
+.leftButton{
+   position:absolute;
+   margin-top:10%;
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+.rightButton{
+   position: absolute;
+   margin-left: 87%;
+   margin-top:10%;
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+.BodyColor{
+    background: linear-gradient(3deg, #2a3d40 60%, #0e0d0f 90%);
+    height: 100vh;
+    min-height: 900px;
+    max-height: 1080px;
+}
+.Links{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(5, 5, 5, 0.123) 70%);
+}
+.Links2{
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.descripcion-breve{
+text-align: left;
+padding-left: 10%;
+}
+
+@media (max-width: 600px) {
+    .imgP1 {
+        padding-top: 10%;
+        padding-left: 25%;
+    }
+    .Links2{
+    
+        padding-top: 5%;
+        padding-bottom: 3%;
+        
+    }
+    .descripcion-breve{
+        text-align: center;
+    }
+
+    .grande{
+        font-size:50px;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+   
+  }
+  @media(max-width: 1200px){
+   
+   
+    .descripcion-breve{
+        text-align: center;
+        padding-left: 0%;
+    }
+ 
+  }
+
+
+  .redes{
+    float: right;
+    margin-right: 10%;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+  }
+  .redes:hover{
+    text-decoration: none;
+    color: rgb(59, 117, 0);
+  }
+
+  .cajas{
+    border: #000000 solid 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:rgb(75, 110, 132);
+  }
+
+  .imgFront{
+    margin-top: 20px;
+    width: 37px;
+  }
+  @media (max-width: 600px){
+    .imgFront{
+        margin-top: 20px;
+        width: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+  }
+
+  .imgUtilidades{
+    margin-top: 20px;
+    width: 37px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  @media (max-width: 600px){
+    .imgUtilidades{
+        margin-top: 20px;
+        width: 40px;
+        margin-left: 1px;
+        margin-right: 1px;
+      }
+  }
+
+
+  .gifLoading{
+    width: 15px;
+  }
+
+  .imgBack{
+   
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  @media (max-width: 1200px){
+    .imgBack{
+        margin-top: 20px;
+        width: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+  }
+
+  .imgLenguaje{
+   margin-top: 20px;
+    width: 37px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  @media (max-width: 1200px){
+    .imgLenguaje{
+        margin-top: 15px;
+        width: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+  }
+  hr{
+    padding-top: 2px;
+  background-color: white;
+  }
+  .line{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .cajasLineamiento{
+    margin-top: 15%;
+  }
+
+  #javascript{
+
+  }
+
+  #typescript:hover{
+   margin-top:25px
+  }
+
+  footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    color: white;
+  }
