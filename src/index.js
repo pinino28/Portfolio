@@ -10,7 +10,6 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
     <ComponentePrincipal/>
-    
     </Provider>
   </React.StrictMode>
 );
