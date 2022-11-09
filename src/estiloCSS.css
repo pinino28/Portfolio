@@ -294,6 +294,8 @@ padding-left: 10%;
         margin-left: 5px;
         margin-right: 5px;
       }
+
+      
   }
   hr{
     padding-top: 2px;
@@ -321,4 +323,11 @@ padding-left: 10%;
     bottom:0;
     width: 100%;
     color: white;
+  }
+
+  @media (max-width: 1200px){
+    footer{
+      width: 100%;
+      color: white;
+    }
   }
