@@ -46,7 +46,7 @@ class Proyectos extends Component{
        KKKKKK
       </h5>
     </div>
-  
+  <h4><strong>ESTE APARTADO ESTA ACTUALMENTE EN DESARROLLO...</strong></h4>
   </div>
 
 </div>
