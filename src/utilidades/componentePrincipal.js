@@ -58,7 +58,8 @@ borderRadius: "7% 7% 7% 7%",
 <footer>
        <div className="line">
         
-       <hr/>
+       <hr id="hr"/>
+       
        </div>
               <a href="https://github.com/pinino28" target="_blank" className="redes">
                 GitHub

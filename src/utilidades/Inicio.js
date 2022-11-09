@@ -15,8 +15,8 @@ class Inicio extends Component{
         };
         return(
           <>
+          
             <div id="intro" className="intro">
-
              <div className="box">
           
               <div className="imgP1">

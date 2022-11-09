@@ -244,6 +244,13 @@ padding-left: 10%;
         margin-left: 0px;
         margin-right: 0px;
       }
+      .redes{
+        float: right;
+        margin-right: 10%;
+        font-size: 14px;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+      }
   }
 
   .imgUtilidades{
@@ -297,10 +304,11 @@ padding-left: 10%;
 
       
   }
-  hr{
+  #hr{
     padding-top: 2px;
   background-color: white;
   }
+ 
   .line{
     margin-left: 10%;
     margin-right: 10%;
@@ -311,12 +319,12 @@ padding-left: 10%;
   }
 
   #javascript{
-
+    cursor: pointer;
   }
 
-  #typescript:hover{
-   margin-top:15px;
-  }
+ #typescript{
+  cursor: pointer;
+ }
 
   footer{
     position:absolute;
@@ -330,4 +338,19 @@ padding-left: 10%;
       width: 100%;
       color: white;
     }
+  }
+  #d3{
+   cursor: pointer;
+  }
+
+  #react{
+    cursor: pointer;
+  }
+
+  #css{
+    cursor: pointer;
+  }
+
+  #jQuery{
+    cursor: pointer;
   }
