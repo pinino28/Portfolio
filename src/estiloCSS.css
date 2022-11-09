@@ -240,13 +240,13 @@ padding-left: 10%;
   @media (max-width: 600px){
     .imgFront{
         margin-top: 20px;
-        width: 40px;
+        width: 35px;
         margin-left: 0px;
         margin-right: 0px;
       }
       .redes{
         float: right;
-        margin-right: 10%;
+        margin-right: 8%;
         font-size: 14px;
         text-decoration: none;
         color:rgb(255, 255, 255);
@@ -352,5 +352,21 @@ padding-left: 10%;
   }
 
   #jQuery{
+    cursor: pointer;
+  }
+
+  #git{
+    cursor: pointer;
+  }
+
+  #github{
+    cursor: pointer;
+  }
+
+  #VScode{
+    cursor: pointer;
+  }
+
+  #mysql{
     cursor: pointer;
   }

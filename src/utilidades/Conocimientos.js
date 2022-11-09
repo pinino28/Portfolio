@@ -4,7 +4,8 @@ import $ from "jquery"
 class SobreMi extends Component{
   render(){
     let color = {color: "white"};
-    let mouseOnEstilo = {textAlign:"center", fontSize:"18px"};
+    let mouseOnEstilo = {textAlign:"center", fontSize:"18px", color: "black"};
+   //APARTADO L E N G U A J E S
     $(function() {
       //Typescript texto muestra
       $("#typescriptText").hide()
@@ -113,7 +114,6 @@ class SobreMi extends Component{
     });
     
     //APARTADO U T I L I D A D E S
-
     $(function(){
       $("#githubText").hide()
       $("#gitText").hide()
@@ -213,7 +213,7 @@ class SobreMi extends Component{
                   <img id="css" src="https://cdn.iconscout.com/icon/free/png-256/css-logo-3002030-2496146.png" alt="CSS" className="imgFront"/>
                   <img id="jQuery" src="http://cdn.onlinewebfonts.com/svg/img_193692.png" alt="jQuery" className="imgFront"/>
        
-                  <p id="d3Text" style={mouseOnEstilo}><strong>D3(dataVisualization)</strong></p>
+                  <p id="d3Text" style={mouseOnEstilo}><strong>D3<br/>(dataVisualization)</strong></p>
         
                   <p id="reactText" style={mouseOnEstilo}><strong>React</strong></p>
         
