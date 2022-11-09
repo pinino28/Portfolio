@@ -21,7 +21,7 @@ class Proyectos extends Component{
       <h3 style={estilo}>
      Calculadora
       </h3>
-      Poner proyecto 3 aqui
+      Poner proyecto 1 aca
     <h6 style={estilo}>
      Calculadora realizada en JavaScript & React.
     </h6>
@@ -31,7 +31,7 @@ class Proyectos extends Component{
       <h3 style={estilo}>
         Reloj 25+5
       </h3>
-      Poner proyecto 2 aqui
+      Poner proyecto 2 aca
       <h6 style={estilo}>
         Reloj 25+5 realizado en JavaScript & React.
       </h6>
@@ -39,14 +39,23 @@ class Proyectos extends Component{
 
     <div className="maxWidth col">
       <h3 style={estilo}>
-        vergadura
+        
       </h3>
-      Poner proyecto 3 aqui
+      Poner proyecto 3 aca
       <h5 style={estilo}>
-       KKKKKK
+       
       </h5>
     </div>
-  <h4><strong>ESTE APARTADO ESTA ACTUALMENTE EN DESARROLLO...</strong></h4>
+    <div className="maxWidth col">
+    <h3 style={estilo}>
+        
+      </h3>
+      Poner proyecto 4 aca
+      <h6 style={estilo}>
+       
+      </h6>
+    </div>
+  <h4 style={estilo}><strong>ESTE APARTADO ESTA ACTUALMENTE EN DESARROLLO...</strong></h4>
   </div>
 
 </div>
