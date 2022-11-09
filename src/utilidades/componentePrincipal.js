@@ -43,7 +43,7 @@ borderRadius: "7% 7% 7% 7%",
   </div>
 <Routes>
   
-  <Route exact path='*' element={< Inicio />}></Route> 
+  <Route exact path='/Portfolio' element={< Inicio />}></Route> 
 
   <Route exact path='/proyectos' element={<Proyectos/>}></Route>
 
