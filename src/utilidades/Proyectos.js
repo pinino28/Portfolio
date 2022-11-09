@@ -56,6 +56,10 @@ class Proyectos extends Component{
       </h6>
     </div>
   <h4 style={estilo}><strong>ESTE APARTADO ESTA ACTUALMENTE EN DESARROLLO...</strong></h4>
+  <br/>
+  <h3 style={estilo}>Tengo proyectos publicados en mi <a href="https://github.com/pinino28" target="_blank" >
+                GitHub
+              </a></h3>
   </div>
 
 </div>
