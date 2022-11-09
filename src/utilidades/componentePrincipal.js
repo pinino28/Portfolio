@@ -37,7 +37,7 @@ borderRadius: "7% 7% 7% 7%",
   <div className="sticky-top Links">
       <ul className="Links2">
         
-      <Link style={estiloLink} to='/'><strong>INICIO</strong></Link>
+      <Link style={estiloLink} to='/Portfolio'><strong>INICIO</strong></Link>
         
       </ul>
   </div>
