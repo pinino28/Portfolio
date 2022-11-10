@@ -187,6 +187,7 @@ class SobreMi extends Component{
         <div className="row">
 
         <div className="cajas col">
+          <div>
               <h4>
              <strong>Lenguajes</strong>
              </h4>
@@ -200,6 +201,7 @@ class SobreMi extends Component{
              <img id="javascript" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Unofficial_JavaScript_logo.svg" alt="JavaScript" className="imgLenguaje"/>
              <p id="typescriptText" style={mouseOnEstilo}><strong>TypeScript</strong></p>
              <p id="javascriptText" style={mouseOnEstilo}><strong>JavaScript</strong></p>
+            </div>
             </div>
           </div>
 
