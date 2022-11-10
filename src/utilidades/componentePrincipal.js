@@ -5,6 +5,8 @@ import SobreMi from "./Conocimientos";
 import Inicio from "./Inicio";
 import {BrowserRouter as Router,Routes, Route, Link} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.css'
+import Calculadora from "../calculadora/calculadora.js";
+import ClockLogic from "../Clock25+5/Clock25+5";
 
 /*componente*/
 class ComponentePrincipal extends Component{
@@ -42,6 +44,10 @@ borderRadius: "7% 7% 7% 7%",
       </ul>
   </div>
 <Routes>
+  
+  <Route exact path='/Clock255' element={<ClockLogic/>}></Route>
+
+  <Route exact path='/Calculadora' element={<Calculadora/>}></Route>
   
   <Route exact path='/Portfolio' element={< Inicio />}></Route> 
 

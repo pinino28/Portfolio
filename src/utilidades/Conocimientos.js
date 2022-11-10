@@ -259,8 +259,8 @@ class SobreMi extends Component{
             DataBases
             </strong>
            </h4>
+           <p id="mysqlText" style={mouseOnEstilo}><strong>MySql</strong></p>
           <img id="mysql" src="https://pngimg.com/uploads/mysql/mysql_PNG3.png" alt="Git" className="imgUtilidades"/>
-          <p id="mysqlText" style={mouseOnEstilo}><strong>MySql</strong></p>
           </div>
           </div>
 

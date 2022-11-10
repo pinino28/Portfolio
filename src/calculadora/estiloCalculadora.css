@@ -1,0 +1,59 @@
+#tabla{
+    float: right;
+}
+
+#result{
+}
+
+.screen{
+color:rgb(0, 0, 0);
+    max-width:900px;
+    background-color: rgb(78, 80, 80);
+    border: solid rgb(0, 0, 0);
+    border-width: 10px;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+}
+
+button{
+    min-width: 200px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(55, 72, 80);
+}
+
+button:active{
+    color:white;
+    background-color: black;
+}
+
+.calc{
+    width:25%;
+}
+
+#equals{
+    width: 400px;
+}
+#clear{
+    width: 600px;
+}
+
+.calculator{
+    border:solid 10px;
+    border-color: #273f5e;
+    border-bottom-width: 30px;
+    border-end-start-radius: 10px;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    max-width:fit-content;
+    min-width:max-content;
+    background-color: #273f5e;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+

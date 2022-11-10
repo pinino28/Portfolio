@@ -130,9 +130,7 @@ html {
     padding-left: 20px;
 }
 .maxWidth{
-    background-size:cover;
-    background-image: url("../src/imagenesMias/decoracion.png");
-    background-repeat: no-repeat;
+    
     /*padding-bottom: 50px;*/
 }
 .center {
@@ -370,3 +368,27 @@ padding-left: 10%;
   #mysql{
     cursor: pointer;
   }
+
+  .proyectosImg{
+    max-width: 240px;
+    max-height: 100px;
+    text-align: center;
+  }
+  .proyectosImg:hover{
+   max-width: 260px;
+   
+  }
+  @media (max-width: 600px) {
+    .proyectosImg{
+      max-width: 140px;
+      max-height: 100px;
+      text-align: center;
+    }
+  }
+
+  #hr1{
+    padding-top: 8px;
+  background: linear-gradient(50deg, rgb(0, 0, 0) 10%, rgb(238, 255, 0) 10% 20%, rgb(0, 0, 0) 20% 30%, rgb(238, 255, 0) 30% 40%, rgb(0, 0, 0) 40% 50%, rgb(238, 255, 0) 50% 60%, rgb(0, 0, 0) 60% 70%, rgb(238, 255, 0) 70% 80%, rgb(0, 0, 0) 80% 90%, rgb(238, 255, 0) 90% 100% );
+ width: 100%;
+  }
+ 

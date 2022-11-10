@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+  }
+  
+  body{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  div{
+    color: white;
+  }
+  
+  .buttonNotP{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-end-start-radius: 10px;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background-color: rgb(60, 60, 86);
+    transition: background-color .1s;
+    color: white;
+    height: auto;
+  }
+  .button{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-end-start-radius: 10px;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background-color: rgb(60, 60, 86);
+    transition: background-color .1s;
+    color: white;
+    height: auto;
+  }
+  .button:active{
+    color: black;
+    background-color: white;
+  }
+  
+  .buttonActive{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-end-start-radius: 10px;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background-color: rgb(42, 42, 99);
+    transition: background-color .1s;
+    color: white;
+    height: auto;
+    width: auto;
+  }
+  .buttonNotP:hover{
+    height: 50px;
+  }
+  .buttonNotP:active{
+    color: black;
+    background-color: white;
+  }
+  body{
+    background-color: black;
+  }

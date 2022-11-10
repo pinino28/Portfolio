@@ -3,6 +3,7 @@ import GaleriaComponente from "../galeria/galeria"
 import GaleriaComponente2 from "../galeria2/galeria2"
 import GaleriaComponente3 from "../galeria3/galeria3"
 import '../estiloCSS.css'
+import { Link } from "react-router-dom"
 
 
 class Proyectos extends Component{
@@ -21,7 +22,7 @@ class Proyectos extends Component{
       <h3 style={estilo}>
      Calculadora
       </h3>
-      <h5 style={estilo}>Poner proyecto 1 aca</h5>
+      <Link to='/Calculadora' ><img title="Inspeccionar" className="proyectosImg" src={require("../imagenesMias/calculadora.jpg")}/></Link>
     <h6 style={estilo}>
      Calculadora realizada en JavaScript & React.
     </h6>
@@ -31,7 +32,9 @@ class Proyectos extends Component{
       <h3 style={estilo}>
         Reloj 25+5
       </h3>
-      <h5 style={estilo}>Poner proyecto 2 aca</h5>
+      <div className="proyectosImg">
+      <Link to='/Clock255'><img title="Inspeccionar" className="proyectosImg" src={require("../imagenesMias/Clock.png")}/></Link>
+      </div>
       <h6 style={estilo}>
         Reloj 25+5 realizado en JavaScript & React.
       </h6>
@@ -55,9 +58,13 @@ class Proyectos extends Component{
        
       </h6>
     </div>
+    <br/><br/>
   <h4 style={estilo}><strong>ESTE APARTADO ESTA ACTUALMENTE EN DESARROLLO...</strong></h4>
-  <br/>
-  <h3 style={estilo}>Tengo algunos proyectos publicados en mi <a href="https://github.com/pinino28" target="_blank" >
+  
+  <hr id="hr1"></hr>
+ 
+  <br/><br/><br/>
+  <h3 style={estilo}>Tengo algunos proyectos mas publicados en mi <a href="https://github.com/pinino28" target="_blank" >
                 GitHub
               </a></h3>
   </div>
