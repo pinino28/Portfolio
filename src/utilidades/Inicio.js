@@ -1,5 +1,6 @@
 import {Component} from "react";
 import {Link} from "react-router-dom"
+import $ from "jquery"
 class Inicio extends Component{
     render(){
       let estiloLink = {
@@ -13,6 +14,29 @@ class Inicio extends Component{
         float: "left",
         marginLeft: "10%"
         };
+        $(function(){
+        $(".grande").hide()
+        $(".grande").animate({width: "toggle"})
+        $("#miName").hide()
+        $("#miName").show(1000)
+        $(".descripcion-breve").hide()
+        $(setTimeout(function(){
+        $(".descripcion-breve").show(1000)
+      }, 2000));
+        $("#linkn1").hide()
+        $("#linkn2").hide()
+        $(function(){
+        setTimeout(function(){
+          $("#linkn2").show(1000)
+        },3000)
+
+        setTimeout(function(){
+          $("#linkn1").show(1000)
+        },4000)
+      })
+
+      
+        });
         return(
           <>
           
@@ -32,7 +56,7 @@ class Inicio extends Component{
             <p className="grande">
               <strong>Buenas!</strong>
             </p>
-            <h3 className="descripcion-breve"> <strong><em>Mi nombre es Cristian Dragone</em></strong></h3>
+            <h3 id="miName" className="descripcion-breve"> <strong><em>Mi nombre es Cristian Dragone</em></strong></h3>
             <h5 className="descripcion-breve">
                Soy estudiante de programación y desarrollo web.📖
               <br/>
@@ -41,8 +65,8 @@ class Inicio extends Component{
                Mi otro hobby aparte de la programación y el desarrollo
               web es la electrónica⚡.
             </h5>
-            <Link style={estiloLink} to="/Proyectos"><strong>Proyectos</strong></Link>
-            <Link style={estiloLink} to="/Conocimientos"><strong>Conocimientos</strong></Link>
+            <Link id="linkn1" style={estiloLink} to="/Proyectos"><strong>Proyectos</strong></Link>
+            <Link id="linkn2" style={estiloLink} to="/Conocimientos"><strong>Conocimientos</strong></Link>
        <br/><br/>
 
        

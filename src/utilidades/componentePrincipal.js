@@ -22,6 +22,7 @@ borderRadius: "7% 7% 7% 7%",
 };
     return(
 <>
+
 <div className="BodyColor">
 
 <div>
@@ -81,7 +82,6 @@ borderRadius: "7% 7% 7% 7%",
             </a>
             </footer>
 </div>
-
 </>
     )
   }
