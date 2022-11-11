@@ -8,15 +8,34 @@ class Inicio extends Component{
         textDecoration:"none",
         marginLeft: 25,
         backgroundColor: "rgb(20,20,20)",
-        border: "3px solid rgb(10,20,20)",
-        borderRadius: "7% 7% 7% 7%",
+        border: "2px solid rgb(10,20,20)",
+        borderTopLeftRadius: "10px",
+        borderTopRightRadius: "10px",
+        borderBottomLeftRadius: "10px",
+        borderBottomRightRadius: "10px",
         fontSize:"20px",
         float: "left",
         marginLeft: "10%"
         };
         $(function(){
+
         $(".grande").hide()
         $(".grande").animate({width: "toggle"})
+      
+     // function wason(){
+     //  var grande="Buenas!"    
+     //  var r;
+     //      for (let i = 0; i < grande.length; i++) {
+     //       r+=grande[i]
+     //        $(".grande").text(r)
+     //      };
+     //   return r
+     //   
+     //  };
+     //  wason()
+        
+       
+
         $("#miName").hide()
         $("#miName").show(1000)
         $(".descripcion-breve").hide()
@@ -35,7 +54,28 @@ class Inicio extends Component{
         },4000)
       })
 
-      
+      $("#linkn1").on("mouseover", function(){
+       $("#linkn1").css("background-color", "white")
+       $("#linkn1").css("color", "black")
+       $("#linkn1").css("borderColor", "white")
+      })
+      $("#linkn1").on("mouseout", function(){
+        $("#linkn1").css("background-color", "black")
+       $("#linkn1").css("color", "white")
+       $("#linkn1").css("borderColor", "black")
+      }) 
+
+
+      $("#linkn2").on("mouseover", function(){
+        $("#linkn2").css("background-color", "white")
+        $("#linkn2").css("color", "black")
+        $("#linkn2").css("borderColor", "white")
+       })
+       $("#linkn2").on("mouseout", function(){
+         $("#linkn2").css("background-color", "black")
+        $("#linkn2").css("color", "white")
+        $("#linkn2").css("borderColor", "black")
+       }) 
         });
         return(
           <>
@@ -62,8 +102,11 @@ class Inicio extends Component{
                Mi otro hobby aparte de la programación y el desarrollo
               web es la electrónica⚡.
             </h5><br/>
-            <Link id="linkn1" style={estiloLink} to="/Proyectos"><strong>Proyectos</strong></Link>
-            <Link id="linkn2" style={estiloLink} to="/Conocimientos"><strong>Conocimientos</strong></Link>
+            
+            <Link id="linkn1" style={estiloLink} to="/Proyectos"><strong><em>PROYECTOS</em></strong></Link>
+
+            <Link id="linkn2" style={estiloLink} to="/Conocimientos"><strong><em>CONOCIMIENTOS</em></strong></Link>
+
        <br/><br/>
 
        
