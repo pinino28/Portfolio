@@ -41,17 +41,14 @@ class Inicio extends Component{
           <>
           
             <div id="intro" className="intro">
+
              <div className="box">
-          
               <div className="imgP1">
-                
                 <img className="imgP img-fluid" alt="Me" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0B1vxOFetMbGVIyh46vqoEWN6yqxKcJfl9Q&usqp=CAU"/>
-                
               </div>  
-              
-            </div>
+             </div>
+
             <div>
-              
             <br/><br/>
             <p className="grande">
               <strong>Buenas!</strong>
@@ -64,7 +61,7 @@ class Inicio extends Component{
               <br/>
                Mi otro hobby aparte de la programación y el desarrollo
               web es la electrónica⚡.
-            </h5>
+            </h5><br/>
             <Link id="linkn1" style={estiloLink} to="/Proyectos"><strong>Proyectos</strong></Link>
             <Link id="linkn2" style={estiloLink} to="/Conocimientos"><strong>Conocimientos</strong></Link>
        <br/><br/>

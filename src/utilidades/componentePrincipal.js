@@ -37,7 +37,7 @@ borderRadius: "7% 7% 7% 7%",
 <script src="../GitHub/bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
 <Router>
 <div>
-  <div className="sticky-top Links">
+  <div className="Links">
       <ul className="Links2">
         
       <Link style={estiloLink} to='/Portfolio'><strong>INICIO</strong></Link>
