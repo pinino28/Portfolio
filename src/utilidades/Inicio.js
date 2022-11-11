@@ -19,8 +19,7 @@ class Inicio extends Component{
         };
         $(function(){
 
-        $(".grande").hide()
-        $(".grande").animate({width: "toggle"})
+       
       
      // function wason(){
      //  var grande="Buenas!"    
@@ -33,8 +32,45 @@ class Inicio extends Component{
      //   
      //  };
      //  wason()
-        
-       
+    $(setTimeout(function(){
+     $(".grande").text("B|")
+        },200));
+
+        $(setTimeout(function(){
+          $(".grande").text("Bu|")
+             },400));
+
+             $(setTimeout(function(){
+              $(".grande").text("Bue|")
+                 }, 600));
+
+               $(setTimeout(function(){
+                $(".grande").text("Buem|")
+                   }, 800));
+
+                 $(setTimeout(function(){
+                  $(".grande").text("Bue|")
+                     }, 1300));
+
+                     $(setTimeout(function(){
+                      $(".grande").text("Buen|")
+                         }, 1500));
+
+                         $(setTimeout(function(){
+                          $(".grande").text("Buena|")
+                             }, 1600));
+
+                             $(setTimeout(function(){
+                              $(".grande").text("Buenas|")
+                                 }, 1700));
+                               
+                                $(setTimeout(function(){
+                                 $(".grande").text("Buenas!|")
+                                    }, 1900));
+
+                                   $(setTimeout(function(){
+                                    $(".grande").text("Buenas!")
+                                       }, 1900));
 
         $("#miName").hide()
         $("#miName").show(1000)
@@ -90,9 +126,9 @@ class Inicio extends Component{
 
             <div>
             <br/><br/>
-            <p className="grande">
-              <strong>Buenas!</strong>
-            </p>
+            <h5 className="grande">
+              <strong></strong>
+            </h5>
             <h3 id="miName" className="descripcion-breve"> <strong><em>Mi nombre es Cristian Dragone</em></strong></h3>
             <h5 className="descripcion-breve">
                Soy estudiante de programación y desarrollo web.📖
@@ -101,7 +137,7 @@ class Inicio extends Component{
               <br/>
                Mi otro hobby aparte de la programación y el desarrollo
               web es la electrónica⚡.
-            </h5><br/>
+            </h5>
             
             <Link id="linkn1" style={estiloLink} to="/Proyectos"><strong><em>PROYECTOS</em></strong></Link>
 
