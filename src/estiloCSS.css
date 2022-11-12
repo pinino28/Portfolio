@@ -107,7 +107,7 @@ html {
 
 .imgP{
     image-resolution: 144px;
-    width: 120px;
+    width: 110px;
     border-radius: 10%;
     margin-bottom: 0px;
     border-color: #2c2c2c63;
@@ -162,7 +162,7 @@ html {
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(5, 5, 5, 0.123) 70%);
 }
 .Links2{
-    
+  margin-left: 10%;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -207,15 +207,31 @@ padding-left: 10%;
 
   .redes{
     float: right;
-    margin-right: 10%;
+    margin-right: 3%;
     font-size: 20px;
     text-decoration: none;
     color:rgb(255, 255, 255);
   }
+@media (max-width: 600px) {
+  .redes{
+    float: right;
+    margin-right: 0%;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+  }
+}
+
   .redes:hover{
     text-decoration: none;
     color: rgb(59, 117, 0);
   }
+
+  #conjuntoRedes{
+    padding-right: 10%;
+  }
+
+
 
   .cajas{
     border: #000000 solid 5px;
@@ -243,7 +259,7 @@ padding-left: 10%;
       }
       .redes{
         float: right;
-        margin-right: 8%;
+        margin-right: 3%;
         font-size: 14px;
         text-decoration: none;
         color:rgb(255, 255, 255);
@@ -391,5 +407,26 @@ padding-left: 10%;
  width: 100%;
   }
 
-  
- 
+  #Copyr{
+    margin-left: 10%;
+  }
+
+  @media (max-width: 600px){
+    #Copyr{
+      font-size:10px;
+    }
+  }
+
+  #idiom{
+    float:right;
+    margin-right: 30%;
+    background-color: #00000000;
+    color: white;
+    cursor:pointer;
+  }
+
+  @media (max-width: 600px){
+    #idiom{
+      margin-right: 30%;
+    }
+  }

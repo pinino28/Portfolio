@@ -8,9 +8,18 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Calculadora from "../calculadora/calculadora.js";
 import ClockLogic from "../Clock25+5/Clock25+5";
 
+import ProyectosEN from "../utilidades/ENG/ProyectosEN";
+import SobreMiEN from "../utilidades/ENG/ConocimientosEN";
+import InicioEN from "../utilidades/ENG/InicioEN";
+
 /*componente*/
 class ComponentePrincipal extends Component{
-
+constructor(props){
+  super(props);
+  this.state = {
+   activated: true
+  }
+};
 render(){
 let estiloLink = {
 color: "white", 
@@ -20,6 +29,29 @@ backgroundColor: "rgb(20,20,20)",
 border: "3px solid rgb(10,20,20)",
 borderRadius: "7% 7% 7% 7%",
 };
+
+
+const idiomHandler=()=>{
+   
+
+   
+   if(this.state.activated===false){
+    this.setState({
+    activated: true
+   })
+   } 
+
+   if(this.state.activated===true){
+     this.setState({
+       activated: false
+   })
+   }
+
+ 
+
+}
+
+
     return(
 <>
 
@@ -39,9 +71,8 @@ borderRadius: "7% 7% 7% 7%",
 <div>
   <div className="Links">
       <ul className="Links2">
-        
       <Link style={estiloLink} to='/Portfolio'><strong>INICIO</strong></Link>
-        
+        <a id="idiom" onClick={idiomHandler}>{this.state.activated?"ES":"EN"}</a>
       </ul>
   </div>
 <Routes>
@@ -50,11 +81,11 @@ borderRadius: "7% 7% 7% 7%",
 
   <Route exact path='/Calculadora' element={<Calculadora/>}></Route>
   
-  <Route exact path='/Portfolio' element={< Inicio />}></Route> 
+  <Route exact path='/Portfolio' element={this.state.activated?< Inicio />:<InicioEN/>}></Route> 
 
-  <Route exact path='/proyectos' element={<Proyectos/>}></Route>
+  <Route exact path='/proyectos' element={this.state.activated?<Proyectos/>:<ProyectosEN/>}></Route>
 
-  <Route exact path='/Conocimientos' element={<SobreMi/>}></Route>
+  <Route exact path='/Conocimientos' element={this.state.activated?<SobreMi/>:<SobreMiEN/>}></Route>
 
 </Routes>
 </div>
@@ -68,6 +99,8 @@ borderRadius: "7% 7% 7% 7%",
        <hr id="hr"/>
        
        </div>
+       
+       <div id="conjuntoRedes">
               <a href="https://github.com/pinino28" target="_blank" className="redes">
                 GitHub
               </a>
@@ -80,6 +113,8 @@ borderRadius: "7% 7% 7% 7%",
             <a href="https://www.freecodecamp.org/pinino28" target="_blank" className="redes">
               FreeCodeCamp
             </a>
+            </div>
+            <p id="Copyr">{this.state.activated?"©Hecho con React.js 2022":"©Maked with React.js 2022"}</p>
             </footer>
 </div>
 </>
