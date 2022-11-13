@@ -67,6 +67,8 @@ const idiomHandler=()=>{
 <div>
 <script src="../Documents/GitHub/BackEnd/Code.js" rel></script>
 <script src="../GitHub/bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
+
+
 <Router>
 <div>
   <div className="Links">

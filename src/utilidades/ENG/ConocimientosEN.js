@@ -180,6 +180,9 @@ class SobreMi extends Component{
     })
     return(
         <div id="final">
+          <script>{
+        document.title = "Cristian Dragone - Knowledge"
+      }</script>
         <h1 align="center" style={color}>  
           <b><e>Knowledge in:</e></b>
         </h1>

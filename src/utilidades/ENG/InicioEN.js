@@ -45,7 +45,7 @@ class Inicio extends Component{
                  }, 600));
 
                $(setTimeout(function(){
-                $(".grande").text("Help|")
+                $(".grande").text("Hel;|")
                    }, 800));
 
                  $(setTimeout(function(){
@@ -112,7 +112,9 @@ class Inicio extends Component{
         });
         return(
           <>
-          
+          <script>{
+        document.title = "Cristian Dragone"
+      }</script>
             <div id="intro" className="intro">
 
              <div className="box">

@@ -352,6 +352,16 @@ padding-left: 10%;
       color: white;
     }
   }
+  @media (max-height: 900px){
+    footer{
+    top: 75%
+    }
+  }
+  @media (max-height: 700px){
+    footer{
+    top: 70%
+    }
+  }
   #d3{
    cursor: pointer;
   }
@@ -389,10 +399,7 @@ padding-left: 10%;
     max-height: 100px;
     text-align: center;
   }
-  .proyectosImg:hover{
-   max-width: 260px;
-   
-  }
+  
   @media (max-width: 600px) {
     .proyectosImg{
       max-width: 140px;
@@ -403,8 +410,15 @@ padding-left: 10%;
 
   #hr1{
     padding-top: 8px;
-  background: linear-gradient(50deg, rgb(0, 0, 0) 10%, rgb(238, 255, 0) 10% 20%, rgb(0, 0, 0) 20% 30%, rgb(238, 255, 0) 30% 40%, rgb(0, 0, 0) 40% 50%, rgb(238, 255, 0) 50% 60%, rgb(0, 0, 0) 60% 70%, rgb(238, 255, 0) 70% 80%, rgb(0, 0, 0) 80% 90%, rgb(238, 255, 0) 90% 100% );
- width: 100%;
+    background-image: repeating-linear-gradient(
+      60deg,
+      yellow 0 40px,
+      black 40px 80px
+    );
+ width: 80%;
+  }
+  #hr1P{
+   padding-left: 20%;
   }
 
   #Copyr{
@@ -429,4 +443,34 @@ padding-left: 10%;
     #idiom{
       margin-right: 30%;
     }
+  }
+
+  #pro1:hover{
+    text-decoration: none;
+    background-color: #00000027;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  #pro2:hover{
+    background-color: #00000027;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  #pro3:hover{
+    background-color: #00000027;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  #pro4:hover{
+    background-color: #00000027;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }

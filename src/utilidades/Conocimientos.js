@@ -4,7 +4,7 @@ import $ from "jquery"
 class SobreMi extends Component{
   render(){
     let color = {color: "white"};
-    let mouseOnEstilo = {textAlign:"center", fontSize:"18px", color: "black"};
+    let mouseOnEstilo = {textAlign:"center", fontSize:"60px", color: "black"};
    //APARTADO L E N G U A J E S
     $(function() {
       //Typescript texto muestra
@@ -180,6 +180,9 @@ class SobreMi extends Component{
     })
     return(
         <div id="final">
+          <script>{
+        document.title = "Cristian Dragone - Conocimiento"
+      }</script>
         <h1 align="center" style={color}>  
           <b><e>Conocimientos en:</e></b>
         </h1>
@@ -199,7 +202,7 @@ class SobreMi extends Component{
              
             
              <img id="javascript" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Unofficial_JavaScript_logo.svg" alt="JavaScript" className="imgLenguaje"/>
-             <p id="typescriptText" style={mouseOnEstilo}><strong>TypeScript</strong></p>
+             
              <p id="javascriptText" style={mouseOnEstilo}><strong>JavaScript</strong></p>
             </div>
             </div>
@@ -266,7 +269,7 @@ class SobreMi extends Component{
           </div>
           </div>
 
-          
+          <p id="typescriptText" style={mouseOnEstilo}><strong>TypeScript</strong></p>
 
         </div>
         
